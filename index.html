@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <link rel="stylesheet" href="/assets/css/codepen.css">
-    <script src="/assets/js/codepen.js"></script>
+    <link rel="stylesheet" href="./assets/css/codepen.css">
+    <script src="./assets/js/codepen.js"></script>
 </head>
 
 <body class="is-preload">
@@ -190,20 +190,23 @@
                                     <input type="text" name="name" id="name" />
                                 </div>
                                 <div class="field half">
+                                    <label for="surname">Apellido</label>
+                                    <input type="text" name="surname" id="surname" />
+                                </div>
+                                <div class="field ">
+                                    <label>¿Quieres que te llame de alguna otra manera?</label> <input type="text" name="apodo" id="apodo" size="10" autocomplete="nickname">
+                                </div>
+                                <div class="field ">
                                     <label for="email">Email</label>
                                     <input type="text" name="email" id="email" />
                                 </div>
-                                <div class="field half">
+                                <div class="field">
                                     <label>Escribe una contraseña:</label>
-                                    <input type="password" id="password" name="password"><br><br>
-                                </div>
-                                <div class="field half">
-                                    <label>Escribela otra vez:</label>
-                                    <input type="password" id="password2" name="password2"><br><br>
+                                    <input type="password" id="password" name="password">
                                 </div>
                                 <div class="field">
-                                    <label for="message">Dejenos información sobre usted</label>
-                                    <textarea name="message" id="message" rows="5"></textarea>
+                                    <label>Escribela otra vez la misma contraseña:</label>
+                                    <input type="password" id="password2" name="password2"><br>
                                 </div>
                             </div>
                             <div class="field half">
@@ -334,7 +337,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="/assets/js/codepen.js"></script>
+    <script src="./assets/js/codepen.js"></script>
 
 
 </body>
