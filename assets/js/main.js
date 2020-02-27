@@ -188,12 +188,3 @@
         });
 
 })(jQuery);
-
-function validpassword() {
-    var contraseña1 = document.forms["Formulario"]["password"].value;
-    var contraseña2 = document.forms["Formulario"]["password2"].values;
-    if (contraseña1 === contraseña2) {
-        alert("Las contraseñas coinciden");
-        return false;
-    }
-}

@@ -5,3 +5,15 @@ document.querySelectorAll('.feedback li').forEach(entry => entry.addEventListene
     }
     e.preventDefault();
 }));
+
+function validpassword() {
+    var contraseña1 = document.forms["Formulario"]["password"].value;
+    var contraseña2 = document.forms["Formulario"]["password2"].value;
+    if (contraseña1 != contraseña2) {
+        alert("Las contraseñas no coinciden");
+        return false;
+    } else {
+        alert("Las contraseñas coinciden");
+        return false;
+    }
+}

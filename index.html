@@ -183,30 +183,30 @@
                 <h2>¿Quiere recibir información?</h2>
                 <div class="split style1">
                     <section>
-                        <form method="post" name="Formulario" action="mailto:antoniojimenezriquelme@gmail.com" enctype="multipart/form-data" onsubmit="return validpassword()">
+                        <form method="post" name="Formulario" action="mailto:antoniojimenezriquelme@gmail.com" enctype="multipart/form-data">
                             <div class="fields">
                                 <div class="field half">
                                     <label for="name">Nombre</label>
-                                    <input type="text" name="name" id="name" />
+                                    <input type="text" name="name" id="name" placeholder="Nombre" />
                                 </div>
                                 <div class="field half">
                                     <label for="surname">Apellido</label>
-                                    <input type="text" name="surname" id="surname" />
+                                    <input type="text" name="surname" id="surname" placeholder="Apellidos" />
                                 </div>
                                 <div class="field ">
-                                    <label>¿Quieres que te llame de alguna otra manera?</label> <input type="text" name="apodo" id="apodo" size="10" autocomplete="nickname">
+                                    <label>¿Quieres que te llame de alguna otra manera?</label> <input type="text" name="apodo" id="apodo" size="10" autocomplete="nickname" placeholder="*Opcional*">
                                 </div>
                                 <div class="field ">
                                     <label for="email">Email</label>
-                                    <input type="text" name="email" id="email" />
+                                    <input type="text" name="email" id="email" placeholder="Correo" />
                                 </div>
                                 <div class="field">
                                     <label>Escribe una contraseña:</label>
-                                    <input type="password" id="password" name="password">
+                                    <input type="password" id="password" name="password" placeholder="Contraseña" minlength="5">
                                 </div>
                                 <div class="field">
                                     <label>Escribela otra vez la misma contraseña:</label>
-                                    <input type="password" id="password2" name="password2"><br>
+                                    <input type="password" id="password2" name="password2" onblur="validpassword()"><br>
                                 </div>
                             </div>
                             <div class="field half">
@@ -215,26 +215,26 @@
                                     <li class="angry">
                                         <div>
                                             <svg class="eye left">
-                                            <use xlink:href="#eye">
+                                            <use xlink:href="#eye"/>
                                         </svg>
                                             <svg class="eye right">
-                                            <use xlink:href="#eye">
+                                            <use xlink:href="#eye"/>
                                         </svg>
                                             <svg class="mouth">
-                                            <use xlink:href="#mouth">
+                                            <use xlink:href="#mouth"/>
                                         </svg>
                                         </div>
                                     </li>
                                     <li class="sad">
                                         <div>
                                             <svg class="eye left">
-                                            <use xlink:href="#eye">
+                                            <use xlink:href="#eye"/>
                                         </svg>
                                             <svg class="eye right">
-                                            <use xlink:href="#eye">
+                                            <use xlink:href="#eye"/>
                                         </svg>
                                             <svg class="mouth">
-                                            <use xlink:href="#mouth">
+                                            <use xlink:href="#mouth"/>
                                         </svg>
                                         </div>
                                     </li>
@@ -244,23 +244,23 @@
                                     <li class="good active">
                                         <div>
                                             <svg class="eye left">
-                                            <use xlink:href="#eye">
+                                            <use xlink:href="#eye"/>
                                         </svg>
                                             <svg class="eye right">
-                                            <use xlink:href="#eye">
+                                            <use xlink:href="#eye"/>
                                         </svg>
                                             <svg class="mouth">
-                                            <use xlink:href="#mouth">
+                                            <use xlink:href="#mouth"/>
                                         </svg>
                                         </div>
                                     </li>
                                     <li class="happy">
                                         <div>
                                             <svg class="eye left">
-                                            <use xlink:href="#eye">
+                                            <use xlink:href="#eye"/>
                                         </svg>
                                             <svg class="eye right">
-                                            <use xlink:href="#eye">
+                                            <use xlink:href="#eye"/>
                                         </svg>
                                         </div>
                                     </li>
