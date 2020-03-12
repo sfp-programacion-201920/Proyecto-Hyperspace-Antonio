@@ -1977,19 +1977,27 @@ input, select, textarea {
 				}
 #principales {
 	color: red;
-	background-color: white;
+}
+.principalesbody{
+	color: white;
 }
 #ferrari {
 	color: black;
-	background-color: red;
+}
+.ferraribody{
+	color: red;
 }
 #redbull {
 	color: #fcd700;
-	background-color: #1E41FF;
+}
+.redbullbody{
+	color: #fcd700;
 }
 #mclaren{
 	color:#00ACEE;
-	background-color: #FF8700;
+}
+.mclarenbody{
+	color: #FF8700;
 }
 /* Features */
 
